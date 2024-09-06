@@ -56,7 +56,7 @@
     ansible.builtin.pip:
       name: 
       - PyMySQL
-      - cryptography
+      - cryptography    #for handilin error for importing data by multiple times
       executable: pip3.9
   
   - name: import mysql data
